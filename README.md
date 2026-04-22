@@ -164,3 +164,19 @@ The project highlights:
 
 -------
 
+*SAMPLE OUTPUT*
+[START]
+task=easy
+[STEP] step=1 action=learn_skill reward=0.5
+[END]
+final_scores={'easy': 0.95, 'medium': 0.78, 'hard': 0.52}
+
+-------
+## ⚙️ Tech Stack
+
+- Python
+- FastAPI
+- Pydantic
+- OpenAI-compatible client
+- Docker
+- Hugging Face Spaces
